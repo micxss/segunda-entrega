@@ -1,0 +1,118 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-principal {
+    padding: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.contenido-grid {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.col img {
+    padding: 15px;
+}
+
+header p {
+    font-size: 35px;
+}
+
+span {
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+
+
+nav a:hover {
+    background-color: rgb(196, 197, 197);
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+.grid-boots {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px 15px 35px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.grid-carrito {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-carrito a {
+    color: black;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+
+.encargos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.contenido-encargos h3 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.color-boton {
+    background-color: gray;
+}
