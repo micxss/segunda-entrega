@@ -1,0 +1,41 @@
+.encargos {
+    // width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.contenido-encargos  {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contenido-encargos h3 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.contenido-encargos p {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.color-boton {
+    background-color: gray;
+}
+.agrandar_form {
+    width: 600px;
+}
+
+
+@media (max-width: 720px) {
+    .agrandar_form {
+        width: 350px;
+    }
+}

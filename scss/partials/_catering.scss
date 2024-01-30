@@ -1,0 +1,25 @@
+.cart-clientes {
+    width: 800px;
+    padding: 35px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    place-items: center;
+    margin: auto;
+    img {
+        height: 400px;
+        width: 400px;
+    }
+}
+.cart-info p {
+    // padding: 15px;
+}
+
+@media (max-width: 860px) {
+    .cart-clientes {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+} 
