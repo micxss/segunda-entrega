@@ -14,21 +14,11 @@ ul {
     list-style-type: none;
 }
 
-nav a {
-    text-decoration: none;
-    color: green;
-    font-size: 20px;
-    font-weight: 400;
-}
-
 a {
     text-decoration: none;
-    color: white; 
-}
-
-
-
-nav a:hover {
-    background-color: rgb(196, 197, 197);
-    color: white;
+    color: map-get($colors, pure-white);
+    &:hover {
+        background-color: rgb(196, 197, 197);
+        color: map-get($colors, pure-white);
+    }
 }

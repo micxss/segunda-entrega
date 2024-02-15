@@ -6,28 +6,47 @@
     padding: 15px;
 }
 
+.formulario-contacto {
+    width: 800px;
+    margin: auto;
+    padding: 75px;
+    @media (max-width: 720px) {
+        width: 350px;
+    }
+}
 
+
+.main-encargos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 720px) {
+        width: 350px;
+    }
+}
+
+.boton-color {
+    background-color: $secundario;
+}
 .contenido-encargos  {
     display: flex;
     flex-direction: column; 
     align-items: center;
-}
-
-.contenido-encargos h3 {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-}
-
-.contenido-encargos p {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    padding: 25px;
+    h3 {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    p {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
 }
 
 .color-boton {
-    background-color: gray;
+    background-color: map-get($colors, gray);
 }
 .agrandar_form {
     width: 600px;

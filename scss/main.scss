@@ -1,6 +1,12 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+// UTILIDADES
+@import 'partials/utilidades/maps';
+@import 'partials/utilidades/variables';
+@import 'partials/utilidades/mixins';
+
+
 // COMPONENTES
 @import 'partials/encargos';
 @import 'partials/footer';
@@ -10,3 +16,4 @@
 @import 'partials/productos';
 @import 'partials/sobrenosotros';
 @import 'partials/catering';
+

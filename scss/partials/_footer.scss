@@ -1,7 +1,7 @@
 footer {
     width: 100%;
-    background-color: darkgoldenrod;
-    color: white;
+    background-color: $secundario;
+    color: map-get($colors, pure-white);
     display: flex;
     justify-content: space-between;
     padding: 15px 35px 15px 35px;

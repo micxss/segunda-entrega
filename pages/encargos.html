@@ -7,7 +7,7 @@
         <!-- Hoja de estilo -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Document</title>
+    <title>Encargos - Baraka</title>
 </head>
 <body>
     <!-- HEADER -->
@@ -39,24 +39,31 @@
     </div>
 
 
-    <main>
+    <main class="main-encargos">
 
         <div class="contenido-encargos">
             <h3>Haz tu pedido aqui!</h3>
             <p>Descubre un mundo de exquisitez en nuestra pastelería. Con diez años de innovación, cada creación es una obra maestra de sabores y texturas. Encarga tus dulces favoritos y deleita tus sentidos con la frescura y calidad que nos define. ¡Haz de cada ocasión especial un festín inolvidable con nosotros!</p>
         </div>
-        <div class="encargos">
-        <div class="mb-3 agrandar_form">
-            <label for="exampleFormControlInput1" class="form-label">Tu correo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="kmicaela.diaz@gmail.com">
+
+        <form class="row g-3 formulario-contacto">
+         
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Tu nombre">
           </div>
-          <div class="mb-3 agrandar_form">
-            <label for="exampleFormControlTextarea1" class="form-label">Escribe aqui tu mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Tu correo">
           </div>
-          <input class="btn btn-primary color-boton" type="submit" value="Enviar">
-        </div>
-        
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="inputCity" placeholder="Telefono">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary boton-color">Enviar</button>
+          </div>
+        </form>
 
 
 

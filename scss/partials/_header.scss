@@ -4,8 +4,8 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    background-color: darkgoldenrod;
-    color: white;
+    background-color: $colorprincipal;
+    color: map-get($colors, pure-white);
 }
 
 header p {

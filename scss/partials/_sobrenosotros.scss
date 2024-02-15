@@ -1,15 +1,12 @@
 .contenedor_sobrenosotros img {
-    width: 400px;
-    height: 400px;
+    @include medidas(400px, 400px);
     padding: 30px;
 }
 
 .main-container {
-    padding-top: 30px;
+    padding: 150px;
     align-items: center;
 }
-
-
 
 
 @media (max-width: 860px) {
