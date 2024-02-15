@@ -9,7 +9,7 @@
 .formulario-contacto {
     width: 800px;
     margin: auto;
-    padding: 75px;
+    padding: 0 0 75px 0;
     @media (max-width: 720px) {
         width: 350px;
     }
@@ -42,6 +42,9 @@
         display: flex;
         justify-content: center;
         padding: 25px;
+    }
+    img {
+        width: 150px;
     }
 }
 

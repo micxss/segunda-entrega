@@ -1,5 +1,5 @@
 .contenedor_sobrenosotros img {
-    @include medidas(400px, 400px);
+    @include medidas(600px, 400px);
     padding: 30px;
 }
 
@@ -16,3 +16,9 @@
     }
 }
 
+.display_flex {
+    padding: 35px;
+    h2 {
+        padding: 15px;
+    }
+}
